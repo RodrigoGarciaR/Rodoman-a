@@ -1,0 +1,34 @@
+//Servicios
+$border-green: #9dcd5a;
+
+.infoServices {
+    border: 1px $border-green solid;
+    width: 70vw;
+
+    tr {
+        border: 1px $border-green solid;
+
+        th {
+            text-align: center;
+            border: 1px $border-green solid;
+
+            .imgService {
+                width: 230px;
+                height: 150px;
+                border-radius: 30px;
+                padding: 1em;
+                margin: auto;
+                transition: all 500ms;
+            }
+        }
+
+        td {
+            border: 1px $border-green solid;
+            padding: 20px 5px;
+
+            ul {
+                list-style: none;
+            }
+        }
+    }
+}
