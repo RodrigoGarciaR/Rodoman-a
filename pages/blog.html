@@ -30,21 +30,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="../pages/services.html">Servicios</a>
+                        <a class="nav-link text-light" href="./services.html">Servicios</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Enlaces de interés
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../pages/about.html">Sobre nosotros</a></li>
-                            <li><a class="dropdown-item" href="../pages/blog.html">Blog</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="./contact.html">Contacto</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./about.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./contact.html">Contacto</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -61,26 +56,46 @@
         <h2 class="text-center pt-3">Blog</h2>
     </main>
 
-    <section class="row justify-content-center">
-        <div class="col-8">
+    <section class="row justify-content-center my-5 container-fluid">
+        <div class="col-md-8 col-sm-10">
             <div class="d-none">
                 <h3>Artículos</h3>
             </div>
-            <div>
-                <p class="fs-4 text-center">¿Cómo crear tu tienda en línea?</p>
+            <div class="postBlog">
+                <div>
+                    <h4 class="fs-4 text-center">¿Cómo crear tu tienda en línea?</h4>
+                </div>
+                <p class="text-muted">Última actualización: 13 de octubre del 2021</p>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eo5F4wZbIhk?controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="mw-100"></iframe>
+                <p>En este video te mostraremos cómo de una manera muy sencilla podrás tener una tienda en línea para
+                    que
+                    empieces a comercializar todos tus productos.</p>
+                <div class="d-flex flex-column align-items-center">
+                    <button type="button" class="btn btn-outline-secondary mt-3">Leer más</button>
+                    <p class="text-muted mt-4">Escrito por Rodrigo García</p>
+                </div>
             </div>
-            <p class="text-muted">Última actualización: 13 de octubre del 2021</p>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eo5F4wZbIhk?controls=0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen class="mw-100"></iframe>
-            <p>En este video te mostraremos cómo de una manera muy sencilla podrás tener una tienda en línea para que
-                empieces a comercializar todos tus productos.</p>
-            <div>
-                <p class="text-muted">Escrito por Rodrigo García</p>
+            <div class="postBlog">
+                <div>
+                    <h4 class="fs-4 text-center">Consejos de productos para iniciar una tienda en línea.</h4>
+                </div>
+                <p class="text-muted">Última actualización: 23 de octubre del 2021</p>
+                <img src="../img/blog2.png" alt="Consejos de productos para vender" class="imgblog">
+                <p>Emprender es algo que todos deseamos hacer, pero mucho se pueden sentir abrumados ante las diversas
+                    cosas
+                    que se deben considerar para dar el primer arranque. Por eso en este artículo te daremos algunos
+                    consejos para que puedas tener en cuenta y si alguno se ajuste a lo que tienes en mente tengas una
+                    pequeña guía...</p>
+                <div class="d-flex flex-column align-items-center">
+                    <button type="button" class="btn btn-outline-secondary mt-3">Leer más</button>
+                    <p class="text-muted mt-4">Escrito por Rodrigo García</p>
+                </div>
             </div>
         </div>
-        <aside class="col-3">
+        <aside class="col-md-3 archive">
             <div>
                 <h3>Archivo</h3>
                 <ul>
@@ -118,7 +133,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-info row">
+    <footer class="bg-info row m-0">
         <div class="col-sm-6 col-md-4">
             <div class="footerTitle">
                 <h5 class="fw-bold">Navegación</h5>
@@ -126,8 +141,8 @@
             <div>
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../pages/privacy.html">Aviso de privacidad</a></li>
-                    <li><a href="../pages/customers.html">Nuestros clientes</a></li>
+                    <li><a href="./privacy.html">Aviso de privacidad</a></li>
+                    <li><a href="./customers.html">Nuestros clientes</a></li>
                 </ul>
             </div>
         </div>

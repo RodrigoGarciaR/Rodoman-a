@@ -1,1 +1,10 @@
 //Pagina de contacto
+.form {
+    width: 50%;
+    margin: auto 10px;
+}
+@media (max-width: 767px){
+    .form{
+        width: 90%;
+    }
+}

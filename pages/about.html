@@ -8,9 +8,12 @@
     <title>Sobre nosotros | Rodomanía</title>
     <script src="https://kit.fontawesome.com/e218e67bca.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../scss/custom.css">
-    <meta name="description" content="La historia detrás de Rodomanía y las personas que trabajan por darte los mejores servicios">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <meta name="description"
+        content="La historia detrás de Rodomanía y las personas que trabajan por darte los mejores servicios">
     <meta name="keywords" content="e-commerce, tienda en linea, vender, pagina web, desarrollo web, redes">
     <meta name="google-site-verification" content="M9AfSfOzfN7BL0DnMM2sbGZYrgdwlsxGfD2X-LoMzjU" />
+
 </head>
 
 <body>
@@ -30,21 +33,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="../pages/services.html">Servicios</a>
+                        <a class="nav-link text-light" href="./services.html">Servicios</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Enlaces de interés
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../pages/about.html">Sobre nosotros</a></li>
-                            <li><a class="dropdown-item" href="../pages/blog.html">Blog</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="./contact.html">Contacto</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./about.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./contact.html">Contacto</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -58,12 +56,15 @@
     <!-- Main -->
 
     <main>
-        <h2 class="text-center pt-3">Sobre de nosotros</h2>
+        <h2 class="text-center pt-3 d-none">Sobre de nosotros</h2>
     </main>
-
+    <div class="text-center my-5">
+        <img src="../img/about.png" alt="sobre nosotros" class="wow animate__animated animate__fadeIn aboutus">
+        <p></p>
+    </div>
 
     <!-- Footer -->
-    <footer class="bg-info row">
+    <footer class="bg-info row m-0">
         <div class="col-sm-6 col-md-4">
             <div class="footerTitle">
                 <h5 class="fw-bold">Navegación</h5>
@@ -71,8 +72,8 @@
             <div>
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../pages/privacy.html">Aviso de privacidad</a></li>
-                    <li><a href="../pages/customers.html">Nuestros clientes</a></li>
+                    <li><a href="./privacy.html">Aviso de privacidad</a></li>
+                    <li><a href="./customers.html">Nuestros clientes</a></li>
                 </ul>
             </div>
         </div>
@@ -115,6 +116,10 @@
 </script>
 <script src="../bootstrap/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+</script>
+<script src="../js/wow.min.js"></script>
+<script>
+    new WOW().init();
 </script>
 
 </html>

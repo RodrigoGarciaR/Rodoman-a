@@ -1,6 +1,26 @@
 //Blog
-aside {
+.archive{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 13px;
+    padding: 1%;
+    margin-top: 2rem;
     ul {
         list-style: none;
     }
+}
+@media (max-width: 767px){
+    .archive{
+        display: none;
+    }
+}
+.imgblog{
+    max-width: 560px;
+    max-height: 315px;
+    width: 100%;
+}
+.postBlog{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 13px;
+    padding: 1%;
+    margin-top: 2rem;
 }

@@ -15,6 +15,9 @@ $hoverlink: #0bdacf;
 @import "./contact";
 @import "./blog";
 @import "./services";
+@import "./customers";
+@import "./privacy";
+@import "./about";
 
 //mixin
 @mixin max-img($width, $height) {
@@ -36,6 +39,12 @@ body {
 
 .navbar-brandimg {
     @include max-img(100px, 100px);
+}
+.nav-link{
+    transition: 700ms all;
+}
+.nav-link:hover{
+    color: $hoverlink!important;
 }
 
 @media (max-width: 767.98px) {
@@ -63,6 +72,7 @@ body {
     .callAction {
         margin: auto;
         width: 90%;
+        background-image: url(../img/contact.png);
     }
 }
 
@@ -87,15 +97,19 @@ body {
 
     .postContainer {
         width: 90vw;
+        .socialContainer{
+            overflow: hidden;
+        }
 
         .socialPost {
             width: 100%;
-            opacity: 0.3;
+            opacity: 0.6;
             transition: 700ms all;
         }
 
         .socialPost:hover {
             opacity: 1;
+            transform: scale(1.2);
         }
     }
 }

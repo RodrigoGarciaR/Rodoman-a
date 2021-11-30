@@ -30,21 +30,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="../pages/services.html">Servicios</a>
+                        <a class="nav-link text-light" href="./services.html">Servicios</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Enlaces de interés
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../pages/about.html">Sobre nosotros</a></li>
-                            <li><a class="dropdown-item" href="../pages/blog.html">Blog</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="./contact.html">Contacto</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./about.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./contact.html">Contacto</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -56,7 +51,7 @@
     </header>
 
     <!-- Main/Formulario -->
-    <div class="m-2 border border-5 border-secondary rounded-3 p-5">
+    <div class="border border-5 border-secondary rounded-3 mx-auto my-4 text-center p-5 form">
         <form action="">
             <fieldset>
                 <legend>
@@ -85,22 +80,59 @@
                     </select>
                 </div>
                 <div>
-                    <input type="checkbox" name="" id="privacy"><label for="privacy" class="mb-2"> He leído y acepto el aviso de
+                    <input type="checkbox" name="" id="privacy"><label for="privacy" class="mb-2"> He leído y acepto el
+                        aviso de
                         privacidad</label>
                 </div>
                 <div>
-                    <input type="checkbox" name="" id="news"><label for="news" class="mb-3"> Deseo recibir correos promocionales
+                    <input type="checkbox" name="" id="news"><label for="news" class="mb-3"> Deseo recibir correos
+                        promocionales
                     </label>
                 </div>
                 <div>
                     <input type="reset" value="Limpiar formulario" class="btn btn-outline-info">
-                    <input type="submit" value="Enviar" class="btn btn-secondary">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Enviar
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Datos enviados</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Muchas gracias por compartirnos tus datos y consultas. Nos estaremos comunicando
+                                        contigo a la brevedad.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
                 </div>
             </fieldset>
         </form>
     </div>
     <!-- Footer -->
-    <footer class="bg-info row">
+    <footer class="bg-info row m-0">
         <div class="col-sm-6 col-md-4">
             <div class="footerTitle">
                 <h5 class="fw-bold">Navegación</h5>
@@ -108,8 +140,8 @@
             <div>
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../pages/privacy.html">Aviso de privacidad</a></li>
-                    <li><a href="../pages/customers.html">Nuestros clientes</a></li>
+                    <li><a href="./privacy.html">Aviso de privacidad</a></li>
+                    <li><a href="./customers.html">Nuestros clientes</a></li>
                 </ul>
             </div>
         </div>

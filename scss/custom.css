@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -6,6 +7,7 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Yaldevi&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+@import url(c:\Users\rodri\Documents\CoderHouse\DesarrolloWeb\Desafíos\Proyecto final\2da. ENTREGA DEL PROYECTO FINAL\scss\customers.css);
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11959,8 +11961,47 @@ fieldset:disabled .btn {
   }
 }
 
-aside ul {
+.form {
+  width: 50%;
+  margin: auto 10px;
+}
+
+@media (max-width: 767px) {
+  .form {
+    width: 90%;
+  }
+}
+
+.archive {
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+          box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+  border-radius: 13px;
+  padding: 1%;
+  margin-top: 2rem;
+}
+
+.archive ul {
   list-style: none;
+}
+
+@media (max-width: 767px) {
+  .archive {
+    display: none;
+  }
+}
+
+.imgblog {
+  max-width: 560px;
+  max-height: 315px;
+  width: 100%;
+}
+
+.postBlog {
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+          box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+  border-radius: 13px;
+  padding: 1%;
+  margin-top: 2rem;
 }
 
 .infoServices {
@@ -11996,6 +12037,18 @@ aside ul {
   list-style: none;
 }
 
+.privacy {
+  width: 70vw;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+.aboutus {
+  width: 40vw;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -12011,6 +12064,15 @@ body {
 .navbar-brandimg {
   max-height: 100px;
   max-width: 100px;
+}
+
+.nav-link {
+  -webkit-transition: 700ms all;
+  transition: 700ms all;
+}
+
+.nav-link:hover {
+  color: #0bdacf !important;
 }
 
 @media (max-width: 767.98px) {
@@ -12039,6 +12101,7 @@ body {
   .callAction {
     margin: auto;
     width: 90%;
+    background-image: url(../img/contact.png);
   }
 }
 
@@ -12067,15 +12130,21 @@ body {
   width: 90vw;
 }
 
+.rrss .postContainer .socialContainer {
+  overflow: hidden;
+}
+
 .rrss .postContainer .socialPost {
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.6;
   -webkit-transition: 700ms all;
   transition: 700ms all;
 }
 
 .rrss .postContainer .socialPost:hover {
   opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 footer {

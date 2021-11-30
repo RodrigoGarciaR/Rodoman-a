@@ -33,19 +33,14 @@
                     <li class="nav-item">
                         <a class="nav-link text-light" href="./pages/services.html">Servicios</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Enlaces de interés
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./pages/about.html">Sobre nosotros</a></li>
-                            <li><a class="dropdown-item" href="./pages/blog.html">Blog</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="./pages/contact.html">Contacto</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./pages/about.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./pages/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./pages/contact.html">Contacto</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -78,7 +73,7 @@
         </button>
     </main>
     <!-- Servicios -->
-    <section class="row row-cols-1 row-cols-md-4 g-5 justify-content-md-evenly my-2">
+    <section class="row row-cols-1 row-cols-md-4 g-5 justify-content-md-evenly my-2 w-100">
         <div class="col">
             <div class="card h-100">
                 <img src="./img/code.png" class="card-img-top" alt="desarrollo de sitios web">
@@ -117,7 +112,7 @@
             <p class="fs-2 fw-bold text-center">¿Quieres saber más?</p>
         </div>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-outline-secondary h-50" data-bs-toggle="modal"
+        <button type="button" class="btn btn-secondary h-50" data-bs-toggle="modal"
             data-bs-target="#exampleModal">
             ¡Contáctanos!
         </button>
@@ -152,7 +147,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Lo pensaré</button>
+                        <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Quizás más tarde</button>
                         <button type="button" class="btn btn-secondary">Enviar</button>
                     </div>
                 </div>
@@ -175,16 +170,24 @@
         <div class="container-fluid py-3 postContainer">
             <div class="row">
                 <div class="col-6">
-                    <img src="./img/ig1.png" class="socialPost pb-2" alt="post de instagram de escritorio de trabajo">
-                    <img src="./img/ig2.png" class="socialPost pt-2" alt="posteo de instagram de equipo de trabajo">
+                    <div class="socialContainer">
+                        <img src="./img/ig1.png" class="socialPost pb-2"
+                            alt="post de instagram de escritorio de trabajo">
+                    </div>
+                    <div class="socialContainer">
+                        <img src="./img/ig2.png" class="socialPost pt-2" alt="posteo de instagram de equipo de trabajo">
+                    </div>
                 </div>
                 <div class="col-6">
-                    <img src="./img/ig3.png" class="socialPost h-100" alt="posteo de trabajo de oficinas corporativas">
+                    <div class="socialContainer h-100">
+                        <img src="./img/ig3.png" class="socialPost h-100"
+                            alt="posteo de trabajo de oficinas corporativas">
+                    </div>
                 </div>
             </div>
     </section>
     <!-- Footer -->
-    <footer class="bg-info row">
+    <footer class="bg-info row m-0">
         <div class="col-sm-6 col-md-4">
             <div class="footerTitle">
                 <h5 class="fw-bold">Navegación</h5>
