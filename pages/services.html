@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios | Rodomanía</title>
     <script src="https://kit.fontawesome.com/e218e67bca.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../scss/custom.css">
+    <link rel="stylesheet" href="../css/custom.css">
     <meta name="description" content="Encuentra los mejores servicios que podemos ofrecer para hacer crecer tu negocio">
     <meta name="keywords" content="e-commerce, tienda en linea, vender, pagina web, desarrollo web, redes">
     <meta name="google-site-verification" content="M9AfSfOzfN7BL0DnMM2sbGZYrgdwlsxGfD2X-LoMzjU" />
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
                         <a class="nav-link text-light" href="./services.html">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="./about.html">Sobre nosotros</a>
+                        <a class="nav-link text-light" href="./about.html">Acerca de mí</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="./blog.html">Blog</a>
@@ -55,76 +56,148 @@
     <main>
         <h2 class="text-center pt-3">Servicios</h2>
     </main>
-
-    <section>
-        <div class="d-flex justify-content-around mt-3 mb-3">
-            <table class="infoServices">
-                <tr>
-                    <th><img src="../img/cart.png" alt="crea tu tienda en linea con nosotros" class="imgService">
-                        <p>Tienda en línea</p>
-                    </th>
-                    <th><img src="../img/social.png" alt="Administramos tus redes sociales" class="imgService">
-                        <p>Marketing digital</p>
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <ul>
-                            <li>Costo de $200 MXN/mes</li>
-                            <li>Hasta 50 productos</li>
-                            <li>Sin límite de visitaas</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Costo de $300 MXN/mes</li>
-                            <li>Segmentación de publicidad</li>
-                            <li>Horario de soporte a negociar</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <ul>
-                            <li>Sin conocimientos técnicos</li>
-                            <li>Tu tienda lista para operar</li>
-                            <li>Como un local físico, pero en internet</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Gestionamos tus redes</li>
-                            <li>Ajustamos las pautas a tu presupuesto</li>
-                            <li>Soporte al cliente</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Te incluimos la carga de tus productos, configuración de envíos y métodos de pago, así como la
-                        personalización de la tienda con tu marca para que comiences a vender cuanto antes.</td>
-                    <td>Te incluimos posteos diarios, generación de pautas y la atención al cliente por el chat de las
-                        redes
-                        sociales a elegir.</td>
-                </tr>
-                <tr>
-                    <td>
-                        <ol><span class="recomendaciones">¿Por qué contratar?</span>
-                            <li>Comienza tu emprendimiento reduciendo la inversión</li>
-                            <li>Digitaliza tus ventas</li>
-                            <li>Expande tus fronteras</li>
-                        </ol>
-                    </td>
-                    <td>
-                        <ol><span class="recomendaciones">¿Por qué contratar?</span>
-                            <li>Tus clientes siempre obtendrán respuesta</li>
-                            <li>Te generamos contenido de calidad</li>
-                            <li>Tu publicidad llega a tu target</li>
-                        </ol>
-                    </td>
-                </tr>
-            </table>
+    <div class="card-group m-5">
+        <div class="card">
+            <img src="../img/code.png" class="card-img-top" alt="Desarrollo web">
+            <div class="card-body">
+                <h5 class="card-title text-center fw-bold">Desarrollo Web</h5>
+                <p class="card-text">Te ayudamos a desarrollar tu página web desde cero y a medida.</p>
+                <!-- Button trigger modal -->
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#code">
+                        Ver más
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="code" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Desarrollo Web</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div>
+                                    <p>Si lo que necesitas es tener una web totlamente personalizada y a medida que se
+                                        ajuste a las necesidades de tu negocio podremos charlar y realizar la cotización
+                                        del servicio.</p>
+                                    <p class="fw-bold">¿Qué incluimos en el servicio?</p>
+                                    <p>Todo lo que necesites. Puede ser desde una landing page hasta un sitio web
+                                        completo incluso con e-commerce incluido.</p>
+                                    <p><span class="fw-bold">Costo</span>: Desde $2,500*</p>
+                                    <p>*Variable de acuerdo al tamaño del proyecto y necesidades del mismo.</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="./contact.html"><button type="button" class="btn btn-secondary">Cotizar
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+        <div class="card">
+            <img src="../img/cart.png" class="card-img-top" alt="e-commerce">
+            <div class="card-body">
+                <h5 class="card-title text-center fw-bold">Crea tu tienda en línea</h5>
+                <p class="card-text">Trasladadamos tu negocio físico al digital u optimizamos la plataforma actual.</p>
+                <!-- Button trigger modal -->
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ecommerce">
+                        Ver más
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="ecommerce" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Crea tu tienda en línea</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Podrás tener tu tienda en línea sin la necesidad de tener conocimientos téncnicos,
+                                    nosotros nos encargamos del armado y diseño de tu tienda.</p>
+                                <p class="fw-bold">¿Qué incluimos en el servicio?</p>
+                                <p>Te incluimos la carga de hasta 50 productos, configuración de envíos y métodos de
+                                    pago, así como la personalización de la tienda con tu marca para que comiences a
+                                    vender cuanto antes.</p>
+                                <p><span class="fw-bold">Costo</span>: Desde $350 MXN al mes*</p>
+                                <p>*Variable en caso de requerir servicios extras no contemplados en la propuesta
+                                    original.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="./contact.html"><button type="button" class="btn btn-secondary">Cotizar
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/social.png" class="card-img-top" alt="administracion de redes sociales">
+            <div class="card-body">
+                <h5 class="card-title text-center fw-bold">Redes sociales</h5>
+                <p class="card-text">Administramos tus redes sociales para mejorar el performance y atener a tus
+                    clientes.</p>
+                <!-- Button trigger modal -->
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#social">
+                        Ver más
+                    </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="social" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Redes sociales</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Si no tienes tiempo o los conocimientos necesarios para poder gestionar redes
+                                    sociales y sacarle el máximo potencial a estas herramientas para convertirlas en tus
+                                    canales de adquisición, te ayudamos a lograrlo.</p>
+                                <p class="fw-bold">¿Qué incluimos en el servicio?</p>
+                                <p>Te incluimos posteos diarios, generación de pautas segmentadas a tu público y
+                                    atención al cliente vía chat de las redes sociales a elegir.</p>
+                                <p><span class="fw-bold">Costo</span>: Desde $1,000 MXN al mes*</p>
+                                <p>*Variable de acuerdo a horarios de atención requeridos, cantidad de posteos diarios,
+                                    etc.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="./contact.html"><button type="button" class="btn btn-secondary">Cotizar
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Footer -->
     <footer class="bg-info row m-0">
@@ -155,19 +228,19 @@
             <h5 class="fw-bold">Newsletter</h5>
             <div>
                 <input type="email" name="newsletter" id="newsletter" class="newsForm"><i
-                    class="fab fa-telegram-plane"></i>
+                    class="fab fa-telegram-plane fs-4"></i>
             </div>
-            <div class="row justify-content-md-center justify-content-sm-center">
-                <div class="col-1 pt-2">
+            <div class="d-flex justify-content-md-around justify-content-sm-center m-auto fs-3 col-md-8 col-sm-12">
+                <div class="pt-2">
                     <a href="https://facebook.com/"><i class="fab fa-facebook-f text-light"></i></a>
                 </div>
-                <div class="col-1 pt-2">
+                <div class="pt-2">
                     <a href="https://instagram.com/"><i class="fab fa-instagram text-light"></i></a>
                 </div>
-                <div class="col-1 pt-2">
+                <div class="pt-2">
                     <a href="https://twitter.com/"><i class="fab fa-twitter text-light"></i></a>
                 </div>
-                <div class="col-1 pt-2">
+                <div class="pt-2">
                     <a href="https://linkedin.com/"><i class="fab fa-linkedin-in text-light"></i></a>
                 </div>
             </div>

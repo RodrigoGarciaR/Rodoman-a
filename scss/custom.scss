@@ -40,15 +40,17 @@ body {
 .navbar-brandimg {
     @include max-img(100px, 100px);
 }
-.nav-link{
+
+.nav-link {
     transition: 700ms all;
 }
-.nav-link:hover{
-    color: $hoverlink!important;
+
+.nav-link:hover {
+    color: $hoverlink !important;
 }
 
 @media (max-width: 767.98px) {
-    .card {
+    .card-services {
         margin: auto;
         width: 70%;
         border-radius: 1rem;
@@ -57,11 +59,11 @@ body {
 
 .card {
     border-radius: .5rem;
-    transition: 500ms all;
+    transition: 150ms all;
 }
 
-.card:hover {
-    border: 1px solid black;
+.card-services:hover {
+    border: 2px solid $hoverlink;
 }
 
 .card-img-top {
@@ -97,7 +99,8 @@ body {
 
     .postContainer {
         width: 90vw;
-        .socialContainer{
+
+        .socialContainer {
             overflow: hidden;
         }
 
@@ -117,6 +120,7 @@ body {
 
 footer {
     color: $light;
+    padding-top: 2rem;
 
     .footerTitle {
         padding-left: 2rem;
@@ -147,4 +151,7 @@ footer {
             padding-left: 1rem;
         }
     }
+}
+.callAction{
+    display:block;
 }

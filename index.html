@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | Rodomanía</title>
     <script src="https://kit.fontawesome.com/e218e67bca.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./scss/custom.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <meta name="description"
         content="Creación de tienda en línea para iniciar o hacer crecer un emprendimiento de ventas con cualquier tipo de producto que desees comercializar">
     <meta name="keywords" content="e-commerce, tienda en linea, vender, pagina web, desarrollo web, redes">
     <meta name="google-site-verification" content="M9AfSfOzfN7BL0DnMM2sbGZYrgdwlsxGfD2X-LoMzjU" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
 </head>
 
 <body>
@@ -34,7 +35,7 @@
                         <a class="nav-link text-light" href="./pages/services.html">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="./pages/about.html">Sobre nosotros</a>
+                        <a class="nav-link text-light" href="./pages/about.html">Acerca de mí</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="./pages/blog.html">Blog</a>
@@ -74,37 +75,27 @@
     </main>
     <!-- Servicios -->
     <section class="row row-cols-1 row-cols-md-4 g-5 justify-content-md-evenly my-2 w-100">
-        <div class="col">
-            <div class="card h-100">
-                <img src="./img/code.png" class="card-img-top" alt="desarrollo de sitios web">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Desarrollo Web</h5>
-                    <p class="card-text">Te ofrecemos la opción de crear tu sitio web desde cero y adaptada a tus
-                        necesidades.</p>
+        <a href="./pages/services.html" class="text-decoration-none text-black">
+            <div class="col">
+                <div class="card card-services h-100">
+                    <img src="./img/indexcode.png" class="card-img-top" alt="desarrollo de sitios web">
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="./img/cart.png" class="card-img-top" alt="creacion de tiendas en linea">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Creación de tiendas</h5>
-                    <p class="card-text">Ponemos en marcha tu tienda para que comiences a comercializar tus productos
-                        cuanto antes.
-                    </p>
+        </a>
+        <a href="./pages/services.html" class="text-decoration-none text-black">
+            <div class="col">
+                <div class="card card-services h-100">
+                    <img src="./img/indexcart.png" class="card-img-top" alt="creacion de tiendas en linea">
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="./img/social.png" class="card-img-top" alt="servicio de community manager">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Administración de redes sociales</h5>
-                    <p class="card-text">Administramos tus redes sociales, desde publicaciones hasta pautas
-                        publicitarias.</p>
+        </a>
+        <a href="./pages/services.html" class="text-decoration-none text-black">
+            <div class="col">
+                <div class="card card-services h-100">
+                    <img src="./img/indexsocial.png" class="card-img-top" alt="servicio de community manager">
                 </div>
             </div>
-        </div>
+        </a>
     </section>
     <!-- Call to action -->
     <div class="container d-flex flex-column align-items-center py-3 my-5 callAction">
@@ -112,8 +103,7 @@
             <p class="fs-2 fw-bold text-center">¿Quieres saber más?</p>
         </div>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-secondary h-50" data-bs-toggle="modal"
-            data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-secondary h-50" data-bs-toggle="modal" data-bs-target="#exampleModal">
             ¡Contáctanos!
         </button>
         <!-- Modal -->
@@ -147,7 +137,8 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Quizás más tarde</button>
+                        <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Quizás más
+                            tarde</button>
                         <button type="button" class="btn btn-secondary">Enviar</button>
                     </div>
                 </div>
@@ -217,17 +208,17 @@
                 <input type="email" name="newsletter" id="newsletter" class="newsForm"><i
                     class="fab fa-telegram-plane"></i>
             </div>
-            <div class="row justify-content-md-center justify-content-sm-center">
-                <div class="col-1 pt-2">
+            <div class="d-flex justify-content-md-around justify-content-sm-center m-auto fs-3 col-md-8 col-sm-12">
+                <div class="pt-2">
                     <a href="https://facebook.com/"><i class="fab fa-facebook-f text-light"></i></a>
                 </div>
-                <div class="col-1 pt-2">
+                <div class="pt-2">
                     <a href="https://instagram.com/"><i class="fab fa-instagram text-light"></i></a>
                 </div>
-                <div class="col-1 pt-2">
+                <div class="pt-2">
                     <a href="https://twitter.com/"><i class="fab fa-twitter text-light"></i></a>
                 </div>
-                <div class="col-1 pt-2">
+                <div class="pt-2">
                     <a href="https://linkedin.com/"><i class="fab fa-linkedin-in text-light"></i></a>
                 </div>
             </div>
